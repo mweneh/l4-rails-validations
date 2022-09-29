@@ -1,40 +1,43 @@
-puts "Creating Artists ..."
+# puts "Creating Artists ..."
 
-Artist.create({
-    name: "Trio Mio",
-    age: 17
-})
+# trio = Artist.create({
+#     name: "Trio Mio",
+#     age: 17
+# })
 
-Artist.create({
-    name: "Nandy",
-    age: 29
-})
+# nandy = Artist.create({
+#     name: "Nandy",
+#     age: 29
+# })
 
-Artist.create({
-    name: "Mejja",
-    age: 36
-})
+# mejja = Artist.create({
+#     name: "Mejja",
+#     age: 36
+# })
 
-puts "Thats some proper lineup!"
+# puts "Thats some proper lineup!"
 
-puts "Some songs added here..."
+# puts "Some songs added here..."
 
-Song.create({
-    title: "Cheza kama wewe",
-    duration: 4,
-    artist: 1
-})
+# Track.create({
+#     title: "Cheza kama wewe",
+#     duration: 4,
+#     artist_id: trio
+# })
 
-Song.create({
-    title: "Kanairo Dating",
-    duration: 3,
-    artist: 3
-})
+# Track.create({
+#     title: "Kanairo Dating",
+#     duration: 3,
+#     artist_id: mejja
+# })
 
-Song.create({
-    title: "Nimekuzoea",
-    duration: 4,
-    artist: 2
-})
+# Track.create({
+#     title: "Nimekuzoea",
+#     duration: 4,
+#     artist_id: nandy
+# })
 
-puts "Your songs are here!"
+# puts "Your songs are here!"
+Artist.create({    
+    name: "Jontez",
+    age: 18 })
